@@ -91,15 +91,14 @@ a:hover, a:active {
 
 .mainHeader nav ul li {
 	float: left;
-	color:#234465;
+	color: #234465;
 	display: inline;
 	text-transform: uppercase;
 	font-weight: bold;
 }
-.mainHeader nav ul li a{
-	
-	color:#234465;
-	
+.mainHeader nav ul li a {
+
+	color: #234465;
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited {
@@ -211,17 +210,17 @@ a:hover, a:active {
 	list-style: none;
 	text-transform: uppercase;
 }
-.mainFooter ul li a:hoover{
-	color:#FFFFFF;
+.mainFooter ul li a:hoover {
+	color: #FFFFFF;
 }
-.mainFooter ul li a:hoover{
-	color:#F58634;
+.mainFooter ul li a:hoover {
+	color: #F58634;
 }
 /* ===========================
  ====== Media Queries ======
  =========================== */
-@media only screen and (min-width: 1536px){
-.visitCard {
+@media only screen and (min-width: 1536px) {
+	.visitCard {
 		float: left;
 		display: block;
 		clear: right;
@@ -229,14 +228,14 @@ a:hover, a:active {
 	}
 	.visitCard img {
 		width: 80px;
-		height:auto;
+		height: auto;
 	}
 	.visit {
-	 background-color: #F38351;
-    float: left;
-    font-size: 12px;
-    height: 90px;
-    width: 200px;
+		background-color: #F38351;
+		float: left;
+		font-size: 12px;
+		height: 90px;
+		width: 200px;
 	}
 
 	.visit h3 {
@@ -246,14 +245,14 @@ a:hover, a:active {
 	}
 	.visit h4 {
 		color: #FFFFFF;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
 	}
 
 }
-  
-  }
+
+}
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
 	.body {
 		margin: 0 auto;
@@ -284,14 +283,14 @@ a:hover, a:active {
 	}
 	.visitCard img {
 		width: 80px;
-		height:auto;
+		height: auto;
 	}
 	.visit {
-	 background-color: #F38351;
-    float: left;
-    font-size: 12px;
-    height: 90px;
-    width: 200px;
+		background-color: #F38351;
+		float: left;
+		font-size: 12px;
+		height: 90px;
+		width: 200px;
 	}
 
 	.visit h3 {
@@ -301,9 +300,9 @@ a:hover, a:active {
 	}
 	.visit h4 {
 		color: #FFFFFF;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
 	}
 
 	.mainFooter {
