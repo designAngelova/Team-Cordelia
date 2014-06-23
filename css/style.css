@@ -1,3 +1,6 @@
+
+ @charset "utf-8";
+ 
 /* ===========================
  ======= Body style ========
  Begin reusable content
@@ -71,6 +74,42 @@ a:hover, a:active {
  ===== Main Navigation =====
  =========================== */
 
+#navbar{
+
+}
+
+#navbar #holder {
+height:64px;
+border-bottom:1px solid #000;
+}
+
+#navbar #holder ul{
+list-style: none;
+margin:0;
+padding:0;
+}
+
+#navbar #holder ul li a {
+text-decoration: none;
+float:left;
+margin-right: 5px;
+font-family: "Arial Black", Gadget, sans-seriff;
+color: #000;
+border: 1px solid #000;
+border-bottom: none;
+padding: 20px;
+width: 75px;
+text-align: center;
+display:block;
+background:#234465;
+}
+
+#navbar #holder ul li a:hover {
+background:#F90;
+color:#FFF;
+text-shadow: 1px 1px 1px #000;
+}
+ 
 .main-header nav {
 	border-radius: 5px;
 	float: right;
@@ -155,7 +194,7 @@ a:hover, a:active {
 	background-color: #F38351;
 	float: left;
 	height: 185px;
-	width: 250px;
+	width: 180px;
 	float: left;
 }
 
@@ -167,7 +206,7 @@ a:hover, a:active {
 .visit h4 {
 	 color: #FFFFFF;
     font-family: bold;
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
 }
 
