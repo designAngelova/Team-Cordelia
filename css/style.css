@@ -45,6 +45,10 @@ h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	
 }
+h1.center {
+	text-align: center;
+}
+
 
 /* ===========================
  ======= Anchor style ======
@@ -690,5 +694,99 @@ input {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
 	background-color: #fb9e25;
 }
+.clearfix {
+	clear: both;
+}
+
 
 /* Created by ftutorials.com */
+
+/* Timeline */
+
+#timeline {
+	padding: 10px 0;
+}
+
+#timeline #line {
+	width: 5px;
+	background: #666;
+	position: relative;
+	left: 50%;
+	height:800px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#timeline .tl_elem {
+	/*display: none;*/
+	position: absolute;
+	top: 100px;
+	width: 400px;
+	height: 130px !important;
+	left:50%;
+	margin-left:-61px;
+}
+
+#timeline .tl_elem .circle {
+	width:120px;
+	height:120px;
+	position:absolute;
+	border-radius: 90px;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	border: 2px solid #666;
+	background-color: #fafafa;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left:2px;
+	cursor: pointer;
+}
+
+#timeline .tl_elem .caption {
+	padding:10px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font:13px Tahoma;
+	color: #666;
+	position: absolute;
+	background: #fff;
+	width:250px;
+	margin-left: 150px;
+	display: none;
+}
+
+#timeline .tl_elem .caption:after {
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border:15px solid transparent;
+	border-right-color: #fff;
+	position: absolute;
+	left: -30px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+/* Classes for each teammate */
+.circle.f1mp3r {
+	background-image: url(../img/avatars/f1mp3r.png);
+}
+.circle.denicaananieva {
+	background-image: url(../img/avatars/denicaananieva.jpg);
+}
+.circle.rosenrusev {
+	background-image: url(../img/avatars/rosenrusev.jpg);
+}
+.circle.designAngelova {
+	background-image: url(../img/avatars/designAngelova.png);
+}
+.circle.angelGeorgiev {
+	background-image: url(../img/avatars/angel.png);
+}
+.circle.momchilViliyanov {
+	background-image: url(../img/avatars/momchil.png);
+}
