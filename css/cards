@@ -1,0 +1,27 @@
+     .cards{ width:350px; height:240px; margin:10px; float:left }
+     .cards > .frontSideOfTheCard {
+         position: absolute ;
+         -webkit-transform: perspective( 600px ) rotateY( 0deg ) ;
+         background: #FFFF00; width:350px; height:240px; border-radius: 7px;
+         -webkit-backface-visibility: hidden;
+         backface-visibility: hidden;
+         transition: -webkit-transform .5s linear 0s;
+         transition: transform .5s linear 0s;
+     }
+     .cards > .backSideOfTheCard {
+         position: absolute ;
+         -webkit-transform: perspective( 600px ) rotateY( 180deg ) ;
+         background: #ff142b; width:350px; height:240px; border-radius: 7px;
+         -webkit-backface-visibility: hidden;
+         backface-visibility: hidden;
+         transition: -webkit-transform .5s linear 0s;
+         transition: transform .5s linear 0s;
+     }
+     .cards:hover > .frontSideOfTheCard {
+         -webkit-transform: perspective( 600px ) rotateY( -180deg ) ;
+         transform: perspective( 600px ) rotateY( -180deg ) ;
+     }
+     .cards:hover > .backSideOfTheCard {
+         -webkit-transform: perspective( 600px ) rotateY( 0deg ) ;
+         transform: perspective( 600px ) rotateY( 0deg ) ;
+     }
