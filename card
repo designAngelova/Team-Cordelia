@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Team Coredelia</title>
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/cards.css" type="text/css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div class="body">
+			<header class="main-header">
+				<img src="img/logo.png">
+				<nav>
+					<ul>
+						<li class="active"><a href="#">Team</a></li>
+						<li><a href="coding.html">Coding</a></li>
+						<li><a href="card.html">Fun 1</a></li>
+						<li><a href="#">fun 2</a></li>
+						<li><a href="contacts.html">contacts</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="main-content">
+				<div class="content">
+					<table class="responsive">
+						<tr>
+							<td>
+							<div class="cards">
+								<div class="backSideOfTheCard">Answer: He is a dancer :)
+								<img src="img\nakovDance.png" alt="Nakov-dance" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard">Question: Who is Mr.Nakov?
+							</div>
+							<td></td>
+						</td>
+						
+						<td>
+							<div class="cards">
+								<div class="backSideOfTheCard"> Answer: The last model on the market :)
+								<img src="img\pcNakov.jpg" alt="Nakov-pc" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard"> Question: Do you know what pc have Nakov at home?
+							</div>
+							<td></td>
+						</td>
+						<td>
+							<div class="cards">
+								<div class="backSideOfTheCard"> Answer: He also don't do it :)
+								<img src="img\smartNakov.jpg" alt="Nakov-read" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard"> Question: Do you read books?
+							</div>
+						</td>
+						<tr>
+						<td>
+							<div class="cards">
+								<div class="backSideOfTheCard"> Answer: Not and this man :)
+								<img src="img\Nakovface.jpg" alt="photo-Nakov" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard"> Question: How is reponsible for your nightmare?
+							</div>
+							<td></td>
+						</td>
+						<td>
+							<div class="cards">
+								<div class="backSideOfTheCard"> Abswer: He loves to smile :)
+								<img src="img\Nakovtravel.jpg" alt="Nakov-hobby" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard"> Question: What is the hobby of Mr.Nakov?
+							</div>
+							<td></td>
+						</td>
+						<td>
+							<div class="cards">
+								<div class="backSideOfTheCard"> Answer: He dance with everyone :)
+								<img src="img\Nakovstudent.jpg" alt="Nakov-student" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard"> Question: What do in the free time Mr.Nakov?
+							</div>
+						</td>
+						</tr>
+						<tr>
+						<td>
+							<div class="cards">
+								<div class="backSideOfTheCard"> Answer: Into the cave :)
+								<img src="img\Nakovcave.jpg" alt="Nakov-cave" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard"> Question: Where goes Mr.Nakov after class?
+							</div>
+							<td></td>
+						</td>
+
+						<td>
+							<div class="cards">
+								<div class="backSideOfTheCard"> Answer: He want to fly like a bird:)
+								<img src="img\Svetlinfly.jpg" alt="Nakov-fly" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard"> Question: What is the dream of Mr.Nakov?
+							</div>
+							<td></td>
+						</td>
+				
+						<td>
+							<div class="cards">
+								<div class="backSideOfTheCard"> Answer: With a big glass beer :)
+								<img src="img\nakovwork.png" alt="Nakov-work" width="344" height="212">
+								</div>
+								<div class="frontSideOfTheCard"> Question: How Mr.Nakov work?
+							</div>
+						</td>
+						
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<footer class="main-footer">
+			<img class="logo" src="img/logoTransperant.png"/>
+			<p>Copyright &copy; 2014 <a href="#"> https://softuni.bg/</a></p>
+			<ul>
+				<li><a href="https://softuni.bg/contacts">Contacts</a></li>
+				<li><a href="https://softuni.bg/forum">Forum</a></li>
+				<li><a href="https://softuni.bg/news">news</a></li>
+			</ul>
+		</footer>
+
+	</body>
+</html>
