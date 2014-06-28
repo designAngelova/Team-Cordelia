@@ -32,15 +32,22 @@
          -webkit-transform: perspective( 600px ) rotateY( 0deg ) ;
          transform: perspective( 600px ) rotateY( 0deg ) ;
      }
-.backSideOfTheCard h3 {
-   	color:#FFFFFF;
-   	margin-left:10px;</h3>
-   }
 .backSideOfTheCard img{
    	width:344px;
    	height:212px;
    }
 
+.backSideOfTheCard h3 {
+   	color:#FFFFFF;
+   	margin-left:10px;</h3>
+   }
+
 .cards-content{
-	margin-left:150px;
+	-webkit-margin-start: 120px;
 }
+@media (max-width: 1200px) {
+.cards-content{
+	width:90%;
+}	
+
+
