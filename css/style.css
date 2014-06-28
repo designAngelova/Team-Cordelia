@@ -280,12 +280,12 @@ h2 {
     font-size: 15px;
    
 }
-}
+
 
 @media (max-width: 1200px) {
 	.body {
 		margin: 0 auto;
-		width: 90%;
+		width: 95%;
 		font-size: 100%;
 	}
 	.main-headerimg {
