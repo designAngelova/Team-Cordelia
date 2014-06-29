@@ -112,7 +112,7 @@ a:hover, a:active {
 	padding: 5px 23px;
 	text-decoration: none;
 }
-.main-header nav a:hover, .main-headernav a:active, .main-headernav .active a:link, .main-headernav .active a:visited, a:focus {
+.main-header nav a:hover, .main-header a:active, .main-header .active a:link, .main-header .active a:visited, a:focus {
 
 	color: #F58634;
 	text-shadow: none !important;
@@ -743,6 +743,7 @@ input {
 	background-repeat: no-repeat;
 	margin-left:2px;
 	cursor: pointer;
+    opacity: .8;
 }
 
 #timeline .tl_elem .caption {
@@ -760,6 +761,10 @@ input {
 	display: none;
 }
 
+#timeline .tl_elem .caption p {
+	display: none;
+}
+
 #timeline .tl_elem .caption:after {
 	content: "";
 	display: block;
@@ -771,6 +776,29 @@ input {
 	left: -30px;
 	top: 50%;
 	margin-top: -15px;
+}
+
+#timeline .tl_elem .circle:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 100ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 100ms;
+    position: relative;
+    z-index: 99;
+    position: absolute;
+}
+
+#timeline .tl_elem .caption .before {
+	font-weight: bold;
+	color: #2f659e;
+}
+
+#timeline .tl_elem .caption .now {
+	font-weight: bold;
+	color: #2f9e2f;
 }
 
 /* Classes for each teammate */

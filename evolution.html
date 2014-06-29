@@ -5,86 +5,108 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Evolution</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(function(){
-			// Creating the pretty text showing
-			$("#timeline>.tl_elem>.circle").hover(function() {
-				$(this).next('.caption').stop(true, true).fadeIn(100); // Show caption
-			}, function() {
-				$(this).next('.caption').stop(true, true).fadeOut(100); // Hide caption
-			});
-			// Create margin for each element
-			var i = 0;
-			$(".tl_elem").each(function() {
-				$(this).css({marginTop: i * parseInt($(this).outerHeight()) + "px"});
-				i++;
-			});
-		});
-	</script>
+	<script src="js/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 </head>
 <body>
-	<h1 class="center">The team about Softuni: before</h1>
+	<header class="main-header">
+		<img src="img/logo.png" alt="logo" />
+		<nav>
+			<ul>
+				<li><a href="index.html">Team</a></li>
+				<li><a href="coding.html">Coding</a></li>
+				<li><a href="fun-cards.html">Fun Cards</a></li>
+				<li><a href="contacts.html">contacts</a></li>
+				<li class="active"><a href="evolution.html">Students' opinions</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1 class="center">The team about Softuni</h1>
 	<div id="timeline">
 		<div id="line"></div>
 		<div class="tl_elem">
 			<div class="circle f1mp3r"></div>
 			<div class="caption">
-				<strong>Christopher Savov</strong>: Tuka pishete razni neshta za softuni koito ste mislili predi da zapochnem.
+				<p>
+					<span class="before">[before]</span> <strong>Christopher Savov</strong>: When I first heard about the Softuni "project" I thought it will be just a normal university.
+				</p>
+				<p>
+					<span class="now">[now]</span> <strong>Christopher Savov</strong>: After all the days spent on the keyboard converting coffee into code I realised how wrong I was and the fun thing is, I really enjoy doing it.
+				</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 		<div class="tl_elem">
 			<div class="circle denicaananieva"></div>
 			<div class="caption">
-				<strong>Denitsa Ananieva</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
+				<p>
+					<span class="before">[before]</span> <strong>Denitsa Ananieva</strong>: <!-- tuk napishete mnenieto vi za softuni predi -->
+				</p>
+				<p>
+					<span class="now">[now]</span> <strong>Denitsa Ananieva</strong>: <!-- tuk napishete mnenieto vi za softuni sega -->
+				</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 		<div class="tl_elem">
 			<div class="circle rosenrusev"></div>
 			<div class="caption">
-				<strong>Rosen Rusev</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
+				<p>
+					<span class="before">[before]</span> <strong>Rosen Rusev</strong>: <!-- tuk napishete mnenieto vi za softuni predi -->
+				</p>
+				<p>
+					<span class="now">[now]</span> <strong>Rosen Rusev</strong>: <!-- tuk napishete mnenieto vi za softuni sega -->
+				</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 		<div class="tl_elem">
 			<div class="circle designAngelova"></div>
 			<div class="caption">
-				<strong>Aneliya Angelova</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
+				<p>
+					<span class="before">[before]</span> <strong>Aneliya Angelova</strong>: <!-- tuk napishete mnenieto vi za softuni predi -->
+				</p>
+				<p>
+					<span class="now">[now]</span> <strong>Aneliya Angelova</strong>: <!-- tuk napishete mnenieto vi za softuni sega -->
+				</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 		<div class="tl_elem">
 			<div class="circle angelGeorgiev"></div>
 			<div class="caption">
-				<strong>Angel Georgiev</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
+				<p>
+					<span class="before">[before]</span> <strong>Angel Georgiev</strong>: <!-- tuk napishete mnenieto vi za softuni predi -->
+				</p>
+				<p>
+					<span class="now">[now]</span> <strong>Angel Georgiev</strong>: <!-- tuk napishete mnenieto vi za softuni sega -->
+				</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 		<div class="tl_elem">
 			<div class="circle momchilViliyanov"></div>
 			<div class="caption">
-				<strong>Momchil Viliyanov</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
+				<p>
+					<span class="before">[before]</span> <strong>Momchil Viliyanov</strong>: <!-- tuk napishete mnenieto vi za softuni predi -->
+				</p>
+				<p>
+					<span class="now">[now]</span> <strong>Momchil Viliyanov</strong>: <!-- tuk napishete mnenieto vi za softuni sega -->
+				</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
-	<h1 class="center">The team about Softuni: now</h1>
+	<footer class="main-footer">
+		<img class="logo" src="img/logoTransperant.png" alt="logo" />
+		<p>Copyright &copy; 2014 <a href="#"> https://softuni.bg/</a></p>
+		<ul>
+			<li><a href="http://www.css-validator.org/"><img src="img/w3css.png" alt="css" /></a></li>
+			<li><a href="http://validator.w3.org/"><img src="img/w3htl.png" alt="html" /></a></li>
+			<li><a href="https://softuni.bg/contacts">Contacts</a></li>
+			<li><a href="https://softuni.bg/forum">Forum</a></li>
+			<li><a href="https://softuni.bg/news">news</a></li>
+		</ul>
+	</footer>
 </body>
 </html>
